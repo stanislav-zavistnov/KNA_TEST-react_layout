@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+:root {
+  --whitef2: #F2F2F2;
+  --black: #1C1A1A;
+  --grey: #828282;
+  --grey5d5c: #5D5C5C;
+  --dark-grey: #252323;
+}
+
+body {
+min-width: 320px;
+font-family: 'Teko', sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+background-color: var(--black);
+}
+
+.list-reset {
+  list-style: none;
+}
+
+.btn-reset {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

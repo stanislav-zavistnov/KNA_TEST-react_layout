@@ -1,0 +1,73 @@
+.heroBackgroundWrap {
+    position: absolute;
+    top: 172px;
+    right: 62px;
+    display: grid;
+    grid-template-columns: repeat(4, 84px);
+    gap: 28px 24px;
+}
+
+.client {
+    padding: 16px 20px;
+    max-width: 288px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+    outline: 1px solid #2D3E34;
+    background: rgba(48, 45, 45, 0.34);
+    backdrop-filter: blur(30px);
+}
+
+.client_one,
+.client_three {
+    grid-column: 2/5;
+}
+
+.client_two,
+.client_four {
+    grid-column: 1/4;
+}
+
+.clientTitleWrap {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.clientImage {
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.clientTitleTextWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.clientName {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    color: var(--whitef2);
+}
+
+.clientTelegram {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--whitef2);
+    opacity: 0.4;
+}
+
+.clientDescr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+    color: var(--whitef2);
+}
