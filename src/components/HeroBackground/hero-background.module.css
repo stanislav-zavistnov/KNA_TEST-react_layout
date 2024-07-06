@@ -71,3 +71,27 @@
     line-height: 115%;
     color: var(--whitef2);
 }
+
+@media (max-width: 1366px) {
+
+    .heroBackgroundWrap {
+        top: 110px;
+        right: 10px;
+    }
+
+    .client_one,
+    .client_three {
+        grid-column: 1/4;
+    }
+
+    .client_two,
+    .client_four {
+        grid-column: 2/5;
+    }
+}
+
+@media (max-width: 1024px) {
+    .heroBackgroundWrap {
+        display: none;
+    }
+}

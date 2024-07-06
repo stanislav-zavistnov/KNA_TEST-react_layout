@@ -7,6 +7,7 @@ export function Hero() {
             <HeroBackground />
             <h1 className={styles.heroTitle}>
                 {`Do you want to Learn more About `}
+                <br className={styles.breakTag}/>
                 <span className={styles.heroTitle__spacing}>{`cryptocurrencies `}</span>
                 <span className={styles.heroTitle__gradient}>quickly and easily ?</span>
             </h1>

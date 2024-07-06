@@ -1,8 +1,8 @@
 import styles from './hero-background.module.css';
-import imageOne from '../../assets/client1.jpg';
-import imageTwo from '../../assets/client2.jpg';
-import imageThree from '../../assets/client3.jpg';
-import imageFour from '../../assets/client4.jpg';
+import imageOne from '../../assets/client1.webp';
+import imageTwo from '../../assets/client2.webp';
+import imageThree from '../../assets/client3.webp';
+import imageFour from '../../assets/client4.webp';
 
 export function HeroBackground() {
     return (
